@@ -7,41 +7,25 @@
 <li>vue是目前最火的一个前端框架</li>
 <li>vue是前端主流框架之一，和angular、react 一起，并成为前端三大主流框架！</li>
 <li>vue是一套构建于用户界面的框架，<font face="黑体">只关注与视图层</font>，他不仅易于上手，还便于与第三方库或既有项目整合</li>
-<li>前端的主要工作？例如mvc架构中的v的一层，主要工作就是和界面打交道，来制作前端页面效果<blockquote>
+<li>前端的主要工作？例如mvc架构中的v的一层，主要工作就是和界面打交道，来制作前端页面效果</li>
+</ul>
+<blockquote>
 <p>下面进行vue的安装 👇</p>
 </blockquote>
-<h2 id="安装vue命令行工具"><a href="#安装vue命令行工具" class="headerlink" title="安装vue命令行工具"></a>安装vue命令行工具</h2><blockquote>
-<p>安装vue-cli命令行工具 👇👇</p>
-</blockquote>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">$ npm install -g @vue/cli or yarn global add @vue/cli</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>查看已安装版本 👇👇</p>
-</blockquote>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">$ vue --version  or vue -V</span><br></pre></td></tr></table></figure>
+<h2 id="2-安装vue命令行工具"><a href="#2-安装vue命令行工具" class="headerlink" title="2.安装vue命令行工具"></a>2.安装vue命令行工具</h2><ul>
+<li>安装vue-cli命令行工具 👇👇<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">$ npm install -g @vue/cli or yarn global add @vue/cli</span><br></pre></td></tr></table></figure></li>
+<li>查看已安装版本 👇👇<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">$ vue --version  or vue -V</span><br></pre></td></tr></table></figure></li>
+<li>卸载vue命令行工具 👇👇<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">$ npm uninstall @vue/cli -g</span><br></pre></td></tr></table></figure></li>
+<li>新建项目 👇👇<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">$ vue create my-project</span><br></pre></td></tr></table></figure></li>
+<li>项目启动 👇👇<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">$ npm run serve</span><br></pre></td></tr></table></figure></li>
+<li>打包项目 👇👇<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">$ npm run build</span><br></pre></td></tr></table></figure>
+
+
+
+
 
 </li>
 </ul>
-<blockquote>
-<p>卸载vue命令行工具 👇👇</p>
-</blockquote>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">$ npm uninstall @vue/cli -g</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>新建项目 👇👇</p>
-</blockquote>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">$ vue create my-project</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>项目启动 👇👇</p>
-</blockquote>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">$ npm run serve</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>打包项目 👇👇</p>
-</blockquote>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">$ npm run build</span><br></pre></td></tr></table></figure>
-
-
-
-
-
 ]]></content>
       <categories>
         <category>vue</category>
@@ -51,32 +35,6 @@
         <tag>hexo</tag>
         <tag>vue</tag>
         <tag>框架</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2020/01/29/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<a id="more"></a>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-]]></content>
-      <categories>
-        <category>编程技术</category>
-        <category>php</category>
-      </categories>
-      <tags>
-        <tag>Testing</tag>
       </tags>
   </entry>
   <entry>
